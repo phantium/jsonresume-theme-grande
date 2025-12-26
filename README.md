@@ -15,20 +15,38 @@ A [JSON Resume](https://jsonresume.org/) theme based on [jsonresume-theme-macchi
 
 ## Usage
 
-1. Download [JSON Resume CLI](https://jsonresume.org/)
-  ```
-  npm install -g resume-cli
+> **Note:** The official `resume-cli` is no longer actively maintained. We recommend using [resumed](https://github.com/rbardini/resumed) instead, which is a modern, actively maintained alternative.
+
+### Using resumed (Recommended)
+
+1. Create a new project directory and initialize it
+  ```bash
+  mkdir my-resume
+  cd my-resume
+  npm init -y
   ```
 
-2. Download the theme from [npm](https://www.npmjs.com/)
-  ```
-  npm install -g jsonresume-theme-grande
+2. Install [resumed](https://github.com/rbardini/resumed) and the theme
+  ```bash
+  npm install resumed jsonresume-theme-grande
   ```
 
-3. Use resume cli to build your resume
+3. Create your `resume.json` file in the project directory (see [JSON Resume Schema](https://jsonresume.org/schema/))
+
+4. Use resumed to build your resume
+  ```bash
+  npx resumed render --theme grande
   ```
-  resume export resume.html --theme grande
-  ```
+
+### Alternative: Using the legacy resume-cli
+
+If you prefer to use the legacy [JSON Resume CLI](https://jsonresume.org/):
+
+```
+npm install -g resume-cli
+npm install -g jsonresume-theme-grande
+resume export resume.html --theme grande
+```
 
 ### PDF output
 
