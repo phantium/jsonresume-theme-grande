@@ -281,6 +281,8 @@ ul.two-column li {
 .full-width-content {
   clear: both;
   width: 100%;
+  padding: 0 34px;
+  box-sizing: border-box;
 }
 
 .item {

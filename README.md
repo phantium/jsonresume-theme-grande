@@ -4,6 +4,11 @@ A [JSON Resume](https://jsonresume.org/) theme based on [jsonresume-theme-macchi
 
 ## Changes from Original Macchiato Theme
 
+### New Features
+
+- **Certifications Section** - Added support for the `certificates` field from JSON Resume schema, displayed as "Certifications"
+- **Notable Projects Section** - Full-width layout for better visibility of project details
+
 ### Visual Improvements
 
 - Increased font sizes for better readability
@@ -11,6 +16,7 @@ A [JSON Resume](https://jsonresume.org/) theme based on [jsonresume-theme-macchi
   - Headings (h3-h6) proportionally increased
 - Maintained proper typographic hierarchy
 - Enhanced visual comfort for extended reading
+- Full-width layout for Projects, Certifications, and Education sections to prevent content cutoff
 
 
 ## Usage
