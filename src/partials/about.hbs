@@ -17,7 +17,7 @@
     {{/if}}
 
     {{#if phone}}
-        {{> info-tag text=this.phone icon="fa-mobile"}}
+        {{> info-tag text=this.phone icon="fa-mobile" url=(concat "tel:" this.phone)}}
     {{/if}}
 
     {{#if website}}
